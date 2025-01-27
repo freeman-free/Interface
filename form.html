@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpagina 1 - Home</title>
+    <title>Webpagina 3 - Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,8 +28,19 @@
     </nav>
 
     <section class="content">
-        <h1>Welkom op de Homepagina</h1>
-        <p>Dit is een voorbeeld van een webpagina met een sticky navigatie en een dropdown-menu.</p>
+        <h1>Contactformulier</h1>
+        <form action="#" method="POST">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Verstuur</button>
+        </form>
     </section>
 
 </body>
